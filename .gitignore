@@ -1,0 +1,14 @@
+/plugged
+/backups
+/session
+*.swp
+*.swo
+.viminfo
+*.swop
+*.DS_Store
+/.vscode
+.netrwhist
+config
+*.vim
+.gitattributes
+.DS_Store
