@@ -45,9 +45,12 @@ vim
 PlugInstall
 ```
 
-Обнови`VIM` так: нажми клавишу ` ; `, потом клавишу `§` – она во втором ряду,
+Обнови`VIM` так: нажми клавишу `;` , потом клавишу `§` – она во втором ряду,
 первая слева.
 
+Нажми `Return`.
+
+… уффф, конец.
 
 ![картинка
 конца](https://2.bp.blogspot.com/-adiAk1fYThI/XfurLogWmAI/AAAAAAAAEuE/31wTTMAXuF8txWEjGBLXoNGZKAZerF-mQCK4BGAYYCw/s320/FullSizeRender-745973.jpg)
