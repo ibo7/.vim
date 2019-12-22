@@ -1,4 +1,4 @@
-![картинка vim](https://1.bp.blogspot.com/-nwxAcbTfezM/XfuG_btqgxI/AAAAAAAAEts/6Ct0ZJSndQMKXt1yn_HBT_edkGPPXUthQCK4BGAYYCw/s640/FullSizeRender-781384.jpg)
+[![картинка vim ](vim.org)](https://1.bp.blogspot.com/-nwxAcbTfezM/XfuG_btqgxI/AAAAAAAAEts/6Ct0ZJSndQMKXt1yn_HBT_edkGPPXUthQCK4BGAYYCw/s640/FullSizeRender-781384.jpg)
 
 # Настройки редактора `VIM` (MacOS) с русским хелпом.
 
@@ -7,7 +7,7 @@
 Сделай это так: 
 
 Открой на компике программу `Terminal.app`, если не знаешь что это – спроси у
-Сирри. Далее введи в теминале строку, которую нужно скопировать ниже:
+Сирри или введи в поиске своего компика. Далее открой терминал и введи в нем строку, которую нужно скопировать ниже:
 
 ```shell
 cd ~
@@ -30,7 +30,7 @@ git clone 'https://github.com/ibo7/.vim.git'
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-Запустите Vim, введя в терминале:
+Запусти Vim, введя в терминале:
 
 ```shell 
 vim

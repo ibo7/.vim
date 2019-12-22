@@ -1,12 +1,12 @@
-/plugged
-/backups
-/session
+plugged/
+backups/
+session/
+.vscode/
 *.swp
 *.swo
 .viminfo
 *.swop
 *.DS_Store
-/.vscode
 .netrwhist
 config
 *.vim

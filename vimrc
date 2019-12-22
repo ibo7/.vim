@@ -55,6 +55,8 @@
  Plug 'tpope/vim-surround'
  Plug 'scrooloose/nerdtree'
  Plug 'tpope/vim-commentary'
+ Plug 'mhartington/oceanic-next'
+ Plug 'arcticicestudio/nord-vim'
 
  
  "Plug 'google/vim-maktaba'
@@ -64,7 +66,8 @@
  call plug#end()
 
 " colorscheme wombat256mod
- colorscheme jellybeans
+" colorscheme jellybeans
+colorscheme OceanicNext
 
  let g:jellybeans_overrides = {
  \    'Todo': { 'guifg': 'cccccc', 'guibg': 'f0f000',
@@ -76,7 +79,5 @@
  " Настройка автосохранения плагина vim-auto-save
 let g:auto_save = 1
 let g:auto_save_in_insert_mode = 0
-
-
 
 
