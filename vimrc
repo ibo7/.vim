@@ -1,5 +1,5 @@
 "-=-=-=-=-=-=-=-=-=-
-"четверг, 19 декабря 2019 г. 15:20:35
+"понедельник, 23 декабря 2019 г. 22:22:09
 "-=-=-=-=-=-=-=-=-=-
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
  map <F3> :!git add -A; git commit -m "777 - стабильный код."<CR>
@@ -11,7 +11,7 @@
  set laststatus=2   " всегда показывать строку статуса
  set statusline=%f%m%r%h%w\ \  
  set statusline +=%{FugitiveStatusline()}
- set statusline +=\ \ 🅱️\ \%n
+ set statusline +=\ \ b\%n
  set statusline +=%=
  set statusline +=\ Ольховка-90,\ ряд:%2l\ %=место:%2c\ [%2p%%]
 
@@ -21,7 +21,10 @@
  set encoding=utf-8
  set helplang=ru,en
  set number
- set textwidth=80
+ " set textwidth=80
+ set guifont=Menlo:h22
+ set lines=28
+ set columns=100
 
 
  set hidden
