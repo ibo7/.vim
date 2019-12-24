@@ -4,7 +4,7 @@
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
  map <F3> :!git add -A; git commit -m "777 - стабильный код."<CR>
  map !git :!git ?
- set nocp "Режим совместимости с vi (отключение)
+ set nocp "Режим совместимости с vi (отключение) ystm
  set expandtab
  set autoindent
  
@@ -20,6 +20,10 @@
 
  set encoding=utf-8
  set keymap=russian-jcukenmac 
+ set spell
+ set spelllang=ru
+ setlocal spellfile=~/.vim/spell/ru.utf-8.add
+ setlocal spellfile+=~/.vim/spell/term.utf-8.add
  set helplang=ru,en
  set number
  " set textwidth=80
@@ -35,7 +39,7 @@
  set ruler
  
  " my map
- inoremap <C-j> <ESC>
+ " inoremap <C-j> <ESC>
  let mapleader=';'
  map <Leader> <Plug>(easymotion-prefix)
  noremap <Leader>w :w<cr>
@@ -83,5 +87,4 @@ colorscheme OceanicNext
  " Настройка автосохранения плагина vim-auto-save
 let g:auto_save = 1
 let g:auto_save_in_insert_mode = 0
-
 
