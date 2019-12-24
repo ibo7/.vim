@@ -1,5 +1,5 @@
 "-=-=-=-=-=-=-=-=-=-
-"понедельник, 23 декабря 2019 г. 22:22:09
+"вторник, 24 декабря 2019 г. 19:04:57
 "-=-=-=-=-=-=-=-=-=-
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
  map <F3> :!git add -A; git commit -m "777 - стабильный код."<CR>
@@ -19,6 +19,7 @@
  set showbreak=\ \ \ 
 
  set encoding=utf-8
+ set keymap=russian-jcukenmac 
  set helplang=ru,en
  set number
  " set textwidth=80
