@@ -21,9 +21,9 @@
  set encoding=utf-8
  set keymap=russian-jcukenmac 
  set spell
- set spelllang=ru
+ set spelllang=en,ru
  setlocal spellfile=~/.vim/spell/ru.utf-8.add
- setlocal spellfile+=~/.vim/spell/term.utf-8.add
+ " setlocal spellfile+=~/.vim/spell/term.utf-8.add
  set helplang=ru,en
  set number
  " set textwidth=80
