@@ -39,12 +39,12 @@
 
  " my map
  " inoremap <C-j> <ESC>
- let mapleader=';'
+ let mapleader=" "
  map <Leader> <Plug>(easymotion-prefix)
  noremap <Leader>w :w<cr>
  map <C-n> :NERDTreeToggle<cr>
  map <leader>§ :so%<cr>
- map <leader>; :
+ map <leader><Space> :
  nmap gm :LivedownToggle<CR>
 
  " -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -89,5 +89,9 @@ let g:auto_save_in_insert_mode = 0
 
 if !exists("autocommands_loaded")
         let autocommands_loaded = 1
-        au BufRead *.ystm r /Users/ibo7/.ystm/000.ystm
+        aug ystm
+                au BufRead *.ystm 0 r /Users/ibo7/.ystm/000.ystm
+                au BufRead *.ystm normal `[3gcc
+                au BufRead *.rux set nu
+        aug END
 endif
