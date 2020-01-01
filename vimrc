@@ -14,7 +14,7 @@
  set statusline +=%{FugitiveStatusline()}
  set statusline +=\ \ b\%n
  set statusline +=%=
- set statusline +=\iBO7.RU\ ряд:%2l\ %=место:%2c\ [%2p%%]
+ set statusline +=\ Olhovka-90\ ряд:%2l\ %=место:%2c\ [%2p%%]
 
  set list
  set lcs=tab:>-,trail:_
@@ -44,6 +44,7 @@
  map <Leader> <Plug>(easymotion-prefix)
  noremap <Leader>w :w<cr>
  map <C-n> :NERDTreeToggle<cr>
+ inoremap <C-j> <C-c>
  map <leader>§ :so%<cr>
  map <leader><Space> :
  nmap gm :LivedownToggle<CR>
@@ -61,15 +62,14 @@
  Plug 'leafgarland/typescript-vim'
  Plug 'tpope/vim-sensible'
  Plug 'tpope/vim-surround'
- Plug 'scrooloose/nerdtree'
+ " Plug 'scrooloose/nerdtree'
  Plug 'tpope/vim-commentary'
+ Plug 'apple/swift'
  Plug 'mhartington/oceanic-next'
  Plug 'arcticicestudio/nord-vim'
- Plug 'apple/swift'
+ " Plug 'brooth/far.vim'
+ " Plug 'mileszs/ack.vim'
 
- "Plug 'google/vim-maktaba'
- "Plug 'google/vim-codefmt'
- "Plug 'google/vim-glaive'
  "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  call plug#end()
 
