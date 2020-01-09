@@ -1,6 +1,6 @@
 "-=-=-=-=-=-=-=-=-=-
-""пятница, 27 декабря 2019 г. 21:35:14
-"-=-=-=-=-=-=-=-=-=
+"четверг,  9 января 2020 г. 18:54:40
+"-=-=-=-=-=-=-=-=-=-
 
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
  map <F3> :!git add -A; git commit -m "777 - стабильный код."<CR>
@@ -37,6 +37,7 @@
 
  set hidden
  set ruler
+ set autowriteall 
 
 
     "my map
@@ -54,7 +55,7 @@
  "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
  Plug 'tpope/vim-fugitive'
- Plug 'vim-scripts/vim-auto-save'
+ " Plug 'vim-scripts/vim-auto-save'
  Plug 'airblade/vim-gitgutter'
  Plug 'nanotech/jellybeans.vim'
  Plug 'shime/vim-livedown'
@@ -67,6 +68,7 @@
  Plug 'apple/swift'
  Plug 'mhartington/oceanic-next'
  Plug 'arcticicestudio/nord-vim'
+ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
  " Plug 'brooth/far.vim'
  " Plug 'mileszs/ack.vim'
 
