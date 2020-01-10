@@ -14,10 +14,10 @@
  set statusline +=%{FugitiveStatusline()}
  set statusline +=\ \ b\%n
  set statusline +=%=
- set statusline +=\ Olhovka-90\ ряд:%2l\ %=место:%2c\ [%2p%%]
+ set statusline +=\ \ %2l\ %2c\ [%2p%%]
 
  set list
- set lcs=tab:>-,trail:_
+ " set lcs=tab:>-,trail:_
  " set showbreak=\ \ \ 
 
  set encoding=utf-8
@@ -52,7 +52,7 @@
 
  " -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
  call plug#begin('~/.vim/plugged')
- "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ " -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
  Plug 'tpope/vim-fugitive'
  " Plug 'vim-scripts/vim-auto-save'
