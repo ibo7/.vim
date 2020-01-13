@@ -1,5 +1,5 @@
 "-=-=-=-=-=-=-=-=-=-
-"четверг,  9 января 2020 г. 18:54:40
+"Mon Jan 13 18:00:55 2020
 "-=-=-=-=-=-=-=-=-=-
 
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
@@ -15,6 +15,7 @@
  set statusline +=\ \ b\%n
  set statusline +=%=
  set statusline +=\ \ %2l\ %2c\ [%2p%%]
+ " set showtabline=1
 
  set list
  " set lcs=tab:>-,trail:_
@@ -31,13 +32,14 @@
  set textwidth=80
  set wrap
  set guifont=Menlo:h22
- set lines=28
- set columns=100
+ set lines=30
+ set columns=110
  set linebreak
 
  set hidden
  set ruler
- set autowriteall 
+ set autowriteall
+ set winheight=20
 
 
     "my map
@@ -55,28 +57,24 @@
  " -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
  Plug 'tpope/vim-fugitive'
- " Plug 'vim-scripts/vim-auto-save'
+ Plug 'vim-scripts/vim-auto-save'
  Plug 'airblade/vim-gitgutter'
- Plug 'nanotech/jellybeans.vim'
  Plug 'shime/vim-livedown'
  Plug 'easymotion/vim-easymotion'
  Plug 'leafgarland/typescript-vim'
  Plug 'tpope/vim-sensible'
  Plug 'tpope/vim-surround'
- " Plug 'scrooloose/nerdtree'
  Plug 'tpope/vim-commentary'
- Plug 'apple/swift'
+ " Plug 'apple/swift'
  Plug 'mhartington/oceanic-next'
  Plug 'arcticicestudio/nord-vim'
  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
- " Plug 'brooth/far.vim'
- " Plug 'mileszs/ack.vim'
+ Plug 'toyamarinyon/vim-swift'
 
  "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  call plug#end()
 
 " colorscheme wombat256mod
-" colorscheme jellybeans
 colorscheme OceanicNext
 
  let g:jellybeans_overrides = {
@@ -89,7 +87,8 @@ colorscheme OceanicNext
  " Настройка автосохранения плагина vim-auto-save
 let g:auto_save = 1
 let g:auto_save_in_insert_mode = 0
-
+let g:auto_save_no_updatetime = 1
+" let g:auto_save_silent = 1
 
 if !exists("autocommands_loaded")
         let autocommands_loaded = 1
