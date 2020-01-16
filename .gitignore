@@ -2,6 +2,7 @@ plugged/
 backups/
 session/
 .vscode/
+.netrwbook
 *.swp
 *.swo
 .viminfo

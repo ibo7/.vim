@@ -1,10 +1,12 @@
 "-=-=-=-=-=-=-=-=-=-
-"Mon Jan 13 18:00:55 2020
+""Thu Jan 16 19:05:13 2020
 "-=-=-=-=-=-=-=-=-=-
+
+filetype plugin on
 
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
  map <F3> :!git add -A; git commit -m "777 - стабильный код."<CR>
- map !git :!git ?
+ map <F4> :!clear && swift % <CR>
  set nocp "Режим совместимости с vi (отключение) ystm
  set expandtab
  set autoindent
@@ -22,18 +24,18 @@
  " set showbreak=\ \ \ 
 
  set encoding=utf-8
- set keymap=russian-jcukenmac
+ " set keymap=russian-jcukenmac
  " set spell
  " set spelllang=en,ru
  setlocal spellfile=~/.vim/spell/ru.utf-8.add
  " setlocal spellfile+=~/.vim/spell/term.utf-8.add
  set helplang=ru,en
  set number
- set textwidth=80
+ " set textwidth=80
  set wrap
- set guifont=Menlo:h22
- set lines=30
- set columns=110
+ set guifont=Menlo:h15
+ set lines=28
+ set columns=107
  set linebreak
 
  set hidden
@@ -42,10 +44,10 @@
  set winheight=20
 
 
-    "my map
+    "my map leader
  let mapleader=" "
  map <Leader> <Plug>(easymotion-prefix)
- noremap <Leader>w :w<cr>
+ " noremap <Leader>w :w<cr>
  map <C-n> :NERDTreeToggle<cr>
  inoremap <C-j> <C-c>
  map <leader>§ :so%<cr>
@@ -88,7 +90,8 @@ colorscheme OceanicNext
 let g:auto_save = 1
 let g:auto_save_in_insert_mode = 0
 let g:auto_save_no_updatetime = 1
-" let g:auto_save_silent = 1
+let g:auto_save_silent = 1
+
 
 if !exists("autocommands_loaded")
         let autocommands_loaded = 1
