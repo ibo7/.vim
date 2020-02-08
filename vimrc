@@ -1,12 +1,12 @@
 "-=-=-=-=-=-=-=-=-=-
-""Thu Jan 16 19:05:13 2020
+"Thu Jan 30 09:57:56 2020
 "-=-=-=-=-=-=-=-=-=-
 
 filetype plugin on
 
  map <F2> <S-O>"-=-=-=-=-=-=-=-=-=-<C-m>"<C-R>=strftime("%c")<CR><C-m>"-=-=-=-=-=-=-=-=-=-<Esc>
  map <F3> :!git add -A; git commit -m "777 - стабильный код."<CR>
- map <F4> :!clear && swift % <CR>
+ map <F4> :!swift % <CR>
  set nocp "Режим совместимости с vi (отключение) ystm
  set expandtab
  set autoindent
@@ -33,13 +33,14 @@ filetype plugin on
  set number
  " set textwidth=80
  set wrap
- set guifont=Menlo:h15
+ set guifont=Menlo:h13
  set lines=28
- set columns=107
+ set columns=101
  set linebreak
 
  set hidden
  set ruler
+ set rnu
  set autowriteall
  set winheight=20
 
@@ -53,6 +54,7 @@ filetype plugin on
  map <leader>§ :so%<cr>
  map <leader><Space> :
  nmap gm :LivedownToggle<CR>
+ map <leader>pp :!open %<CR><CR>
 
  " -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
  call plug#begin('~/.vim/plugged')

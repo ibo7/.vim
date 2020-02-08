@@ -1,1 +1,1 @@
-let g:netrw_bookmarklist= ['/Users/ibo7/']
+let g:netrw_bookmarklist= ['/', '/Users/ibo7/', '/Users/ibo7/.vim/', '/Users/ibo7/.ystm/', '/Users/ibo7/.ystm/langs/swift/', '/Users/ibo7/Downloads/', '/Users/ibo7/web/orthodox/html/', '/Users/ibo7/web/orthodox/html/JAN/', '/private/', '/private/tmp/', '0518/', '0619/']
