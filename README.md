@@ -1,3 +1,7 @@
+"-=-=-=-=-=-=-=-=-=-
+"Sun Feb  9 11:04:47 2020
+"-=-=-=-=-=-=-=-=-=-
+
 ![картинка vim ](https://1.bp.blogspot.com/-nwxAcbTfezM/XfuG_btqgxI/AAAAAAAAEts/6Ct0ZJSndQMKXt1yn_HBT_edkGPPXUthQCK4BGAYYCw/s640/FullSizeRender-781384.jpg)
 
 # Настройки редактора `VIM` (MacOS) с русским хелпом.
