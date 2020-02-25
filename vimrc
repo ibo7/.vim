@@ -1,5 +1,5 @@
 "-=-=-=-=-=-=-=-=-=-
-"Thu Jan 30 09:57:56 2020
+"Fri Feb 21 08:35:02 2020
 "-=-=-=-=-=-=-=-=-=-
 
 filetype plugin on
@@ -55,6 +55,7 @@ filetype plugin on
  map <leader><Space> :
  nmap gm :LivedownToggle<CR>
  map <leader>pp :!open %<CR><CR>
+ map <leader>\ :Sex<CR><CR>
 
  " -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
  call plug#begin('~/.vim/plugged')
